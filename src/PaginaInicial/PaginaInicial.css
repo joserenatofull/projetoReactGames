@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #cecece;
+}
+
+#box-pagina-inicial {
+  padding: 40px;
+}
+
+#container {
+  display: flex;
+}
+
+#container main {
+  width: 70%;
+}
+#container aside {
+  width: 30%;
+  margin-left: 40px;
+}

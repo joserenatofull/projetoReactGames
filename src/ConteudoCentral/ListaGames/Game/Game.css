@@ -1,0 +1,51 @@
+.game {
+    border: 1px solid gray;
+    margin-bottom: 20px;
+    background: white;
+    height: 300px;
+    box-shadow: 3px 3px 5px 0;
+    padding: 20px;
+  }
+  
+  .g-img-texto {
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  .g-texto {
+    text-align: justify;
+    margin-left: 20px;
+    width: 60%;
+    height: 150px;
+    overflow: hidden;
+  }
+  
+  .g-texto p {
+    margin-bottom: 10px;
+  }
+  
+  .g-img {
+    width: 40%;
+    height: 150px;
+    overflow: hidden;
+  }
+  
+  .g-img img {
+    margin-left: -400px;
+    margin-top: -520px;
+  }
+  
+  .g-categ-bt {
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+  }
+  
+  .g-btn-continue-lendo {
+    background: green;
+    padding: 7px 40px;
+    border: none;
+    color: white;
+    margin-top: 23px;
+    margin-right: -21px;
+  }
