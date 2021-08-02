@@ -1,6 +1,7 @@
 #busca {
-    background: white;
-    padding: 20px;
+  background:linear-gradient(white,white,rgba(128, 128, 128, 0.493),rgba(54, 54, 54, 0.678));
+  padding: 20px;
+  display:flex;
   }
   
   #b-campo-busca {
@@ -14,6 +15,15 @@
   }
   
   #b-btn-busca img {
-    width: 10px;
+    width: 12px;
+    height: 12px;
   }
+ 
+  @media screen and (min-width: 768px) {
   
+    #b-campo-busca {
+      padding: 5px 15px;
+      width: 80%;
+    } 
+
+  }

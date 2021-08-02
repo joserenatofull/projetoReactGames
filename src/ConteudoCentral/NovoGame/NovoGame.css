@@ -1,0 +1,42 @@
+#ng{
+    background: white;
+    padding: 20px;
+    min-height: 300px;
+}
+h4{
+    text-align: left;
+    margin-bottom: 3%;
+}
+input,select,textarea{
+margin-left: 10px;
+width:70%;
+}
+.ng-campo{
+    margin-top:10px;
+    width:100%;
+}
+.ng-campo label {
+    display:block;
+}
+#ng-campo-descricao{
+    height:100px;
+    width:90%;
+    height:30%;
+}
+#ng > form > button {
+    margin-top:3%;
+    justify-content:right;
+    
+
+}
+#ng-mensagem-game{
+    background-color: yellow;
+}
+
+@media screen and (max-width: 768px) {
+    #ng-campo-descricao,#ng-campo-plataformas,#ng-campo-titulo,#ng-campo-imagem,
+    #ng-campo-genero,#ng-campo-dataL,#ng-campo-descricao,#ng-campo-desenvolvedor{
+        margin-left: 10px;
+        width:90%;
+        }
+}

@@ -1,0 +1,36 @@
+#lista-genero {
+  background: white;
+  padding: 20px;
+  min-height: 300px;
+}
+
+#lg-titulo-btn-novo-genero {
+  display: flex;
+  justify-content: space-between;
+}
+
+#lg-genero {
+  padding-left: 40px;
+  margin-top: 20px;
+}
+
+.lg-item {
+  list-style: square;
+}
+
+.lg-item-btn-remover {
+  margin-left: 10px;
+}
+.lg-item-btn-listar-games{
+  margin-left:20px;
+}
+#lg-btn-novo-genero2{
+  text-decoration: none;
+  color: white;
+  background-color: black;
+}
+#lg-btn-novo-genero{
+  text-decoration: none;
+  color: white;
+  background-color: black;
+}

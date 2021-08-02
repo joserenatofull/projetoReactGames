@@ -1,0 +1,25 @@
+#bl-genero{
+    margin-top: 6%;
+}
+
+#bl-generoh1{
+    margin-left:10%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 1px 2px 1px grey;
+    font-size: x-large;
+    padding: 5%;
+}
+
+#bl-generoul{
+margin-left: 22%;
+margin-top: 5%;
+}
+#bl-generoul li{
+    padding: 2%;
+    list-style: square;
+}
+
+#bl-generoul a{
+    color: initial;
+    text-decoration: none;
+}

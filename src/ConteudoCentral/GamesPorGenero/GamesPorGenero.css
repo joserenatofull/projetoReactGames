@@ -1,0 +1,17 @@
+#gpc-games{
+    background:white;
+    padding:20px;
+    min-height: 300px;
+}
+.gpc-games-lista{
+    margin-top:20px;
+    text-align: justify;
+    
+}
+#gpc-sem-games{
+    margin-top: 10px;
+    background-color: rgba(255, 0, 0, 0.733);
+    padding:10px;
+    border-radius: 5px;
+    text-align: center;
+}

@@ -2,14 +2,15 @@ import React from 'react';
 import Game from './Game/Game';
 import './ListaGames.css';
 
-const ListaGames = () => {
+const ListaGames = ( {lista}) => {
     return(
     <div>
-    <Game />
-    <Game />
-    <Game />
+            { lista.length > 0 ?
+            lista.map( item => <Game games={item}/>)
+             : <p> Carregando...</p> }
+   
     </div>
-    )
-}
+    );
+};
 
 export default ListaGames;

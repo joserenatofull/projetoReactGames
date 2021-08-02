@@ -1,0 +1,23 @@
+#ng{
+    background: white;
+    padding: 20px;
+    min-height: 300px;
+}
+#ng-campo{
+    margin-top:20px;
+}
+#ng-campo label{
+    display:block;
+}
+
+#ng-btn-salvar{
+    margin-top:10px;
+    margin-left: 10px;
+}
+#ng-mensagem{
+    background-color: rgba(90, 197, 183, 0.74);
+    width:50%;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}

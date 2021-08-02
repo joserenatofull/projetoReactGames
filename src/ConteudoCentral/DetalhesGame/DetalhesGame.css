@@ -1,0 +1,15 @@
+#dg-detalhes-game{
+    background:white;
+    padding:20px;
+    min-height: 300px;
+}
+#dg-descricao{
+    text-align:justify;
+}
+#dg-imagem{
+    width:70%;
+    margin-right: 15%;
+    margin-left: 15%;
+    text-align:center;
+    
+}
