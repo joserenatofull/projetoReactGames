@@ -1,7 +1,6 @@
 import React,{useContext} from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
-import { animateScroll as scroll } from "react-scroll";
 
 
 import TemaContext from '../contexts/TemaContext';
