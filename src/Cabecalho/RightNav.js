@@ -10,21 +10,25 @@ const Ul = styled.ul`
   list-style: none;
   display: flex;
   flex-flow: row nowrap;
+
   li {
     padding: 18px 10px;
   }
-  @media (max-width: 650px) {
+
+  @media (max-width: 768px) {
     flex-flow: column nowrap;
     background-color: #0D2538;
     position: fixed;
     transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(100%)'};
     top: 0;
     right: 0;
-    height: 100vh;
-    width: 300px;
+    height: 70vh;
+    width: 60vw;
+        z-index:10;
+
     padding-top: 3.5rem;
-    z-index:100;
     transition: transform 0.3s ease-in-out;
+
     li {
       color: #fff;
     }
@@ -54,8 +58,7 @@ const RightNav = ({ open }) => {
             <Link to='/novo-game'><i class="far fa-plus-square"></i> Novo Game</Link>
             </li>
             <li>            <Link to='/lista-generos'spy={true}
-    smooth={true}
-    offset={150}
+   
     >
 
      <i class="fas fa-venus-mars"></i>  Genêros </Link>

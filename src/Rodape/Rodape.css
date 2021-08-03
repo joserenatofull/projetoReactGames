@@ -6,6 +6,7 @@
 }
 #map{
     height:60%;
+    z-index:1;
   }
 .a-rodape{color:black;
 padding:10px;}
