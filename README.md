@@ -1,3 +1,8 @@
+Back-end: https://github.com/joserenatofull/projetoReactGames_Back-end
+
+Heroku: https://rockstargamesbrazil.herokuapp.com/
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
