@@ -3,7 +3,7 @@ Back-end: https://github.com/joserenatofull/projetoReactGames_Back-end
 Heroku: https://rockstargamesbrazil.herokuapp.com/
 
 
-#Fron-end da Desenvolvedora Rockstar Games.
+#FronT-end da Desenvolvedora Rockstar Games.
 
 `Após baixar e configurar o back-end.`
 
